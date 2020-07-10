@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>profile_code_academy</title>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <div class='face'>
+            <h1>MY LIBRARY</h1>
+        </div>
+        <div id='container'>
+            <div id='shelf'></div>
+            <div id='shelf'></div>
+            <div id='shelf'></div>
+        </div>
+        <div class='add-book'>
+            <form autocomplete='off' onsubmit="event.preventDefault(); uploadData();">
+                
+                <label>Title of the book</label>
+                <input id='titleOfTheBook' type='text' placeholder='Newton' name='titleOfTheBook' required>
+                
+                <label>Author of the book</label>
+                <input id='authorOfTheBook' type='text' placeholder='Atef Mohamed' name='authorOfTheBook' required>
+                
+                <label>Link the image of the book</label>
+                <input id='linkOfTheBook' type='text' placeholder='https://arabcast.org/images/nopic.jpg' name='linkOfTheBook' required>
+                
+                <button type='submit'>NEW BOOK</button>
+            </form>
+        </div>
+        <script src='script.js'></script>
+    </body>
+</html>

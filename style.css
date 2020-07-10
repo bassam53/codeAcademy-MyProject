@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    badding: 0px;
+}
+body{
+    background: #bdbfb6;
+}
+.face{
+    width: 100%;
+    height: 150px;
+    background: #050b21;
+    margin: 0px auto 10px;
+    border-bottom: 3px solid #452;
+    padding: 10px;
+    
+}
+h1{
+    
+    text-align: center;
+    margin: 30px;
+    font-size: 80px;
+    opacity: 1.5;
+    text-shadow: 2px 2px 2px #bd154c;
+    white-space: nowrap;
+}
+#shelf{
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #452;
+    margin: 77px;
+    padding: 10px;
+    
+}
+.containerOfBooksStyle{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    bottom: 100px;
+    width: 90px;
+    height: 180px;
+    margin: 10px 20px;
+    
+}
+.imagesStyle{
+    width: 90px;
+    height: 120px;
+    transition: all 1s;
+}
+descriptionStyle{
+    height: 80px;
+}
+.titleStyle{
+    height: 40px;
+    text-align: center;
+    margin: 1.5px 0px;
+}
+.authorStyle{
+    height: 40px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text" i] {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #525561;
+    border-radius: 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button{
+     width: 100%;
+     height: 50px;
+     background-color: #050b21;
+     color: #fff;
+     margin: 8px 0;
+     border-radius: 4px;
+     transition: all 2s;
+     font-size: 18px;
+}
+button:hover{
+    background: #071342;
+    transition: all 2s;
+}
+.add-book{
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+     
+}
+img:hover{
+    transform: scale(0.8,0.8);
+}

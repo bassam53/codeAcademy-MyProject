@@ -60,7 +60,7 @@ let books = [
             n++;
         }
             
-            console.log(container.children[n].children.length,n,container.children.length-1);
+            
         var shelf = container.children[n],
             containerOfBooks = document.createElement('div'),
             description = document.createElement('div'),

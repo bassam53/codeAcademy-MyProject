@@ -8,7 +8,7 @@ body{
 .face{
     width: 100%;
     height: 150px;
-    background: #050b21;
+    background: #292d3e;
     margin: 0px auto 10px;
     border-bottom: 3px solid #452;
     padding: 10px;
@@ -22,6 +22,7 @@ h1{
     opacity: 1.5;
     text-shadow: 2px 2px 2px #bd154c;
     white-space: nowrap;
+    opacity: 0.8;
 }
 #shelf{
     width: auto;
@@ -48,6 +49,7 @@ h1{
     width: 90px;
     height: 120px;
     transition: all 1s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 descriptionStyle{
     height: 80px;

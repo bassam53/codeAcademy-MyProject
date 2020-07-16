@@ -32,7 +32,7 @@ h1{
     flex-wrap: wrap;
     margin: 77px;
     padding: 10px;
-    
+    justify-content: space-between;
 }
 .containerOfBooksStyle{
     display: flex;

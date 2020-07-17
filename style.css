@@ -32,7 +32,7 @@ h1{
     flex-wrap: wrap;
     margin: 77px;
     padding: 10px;
-    
+    justify-content: space-between;
 }
 .containerOfBooksStyle{
     display: flex;
@@ -99,8 +99,8 @@ button:hover{
 img:hover{
     transform: scale(0.8,0.8);
 }
-@media (max-width: 1349px){
+@media (max-width: 1370px){
     #shelf{
-      justify-content: space-between;
+      justify-content: flex-start;
     }
   }

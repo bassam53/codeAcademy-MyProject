@@ -6,7 +6,7 @@ body{
     background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 }
 .face{
-    width: 100%;
+    width: auto;
     height: 150px;
     background: #292d3e;
     margin: 0px auto 10px;
